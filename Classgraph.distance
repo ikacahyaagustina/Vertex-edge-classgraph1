@@ -39,4 +39,5 @@ graph.addkota('Papua Barat')
 graph.addkota('Nusa Tenggara Timur')
 graph.addkota('Bali')
 
-# Tambah edge (garis hubungan antar 
+# Tambah edge (garis hubungan antar kota)
+graph.addjalan('Surabaya', 'Semarang', 653)
