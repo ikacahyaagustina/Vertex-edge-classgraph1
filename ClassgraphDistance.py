@@ -15,3 +15,24 @@ class Peta:
             return True 
         return False 
  
+ def printpeta(self): 
+        for kota in self.adj_list: 
+            print(kota, ":", self.adj_list[kota])  
+            for neighbor, distance in self.adj_list[kota].items(): 
+                print("     ->", neighbor, ":", distance)
+
+# Tambah vertex (nama kota)
+graph.addkota('Surabaya')
+graph.addkota('Semarang')
+graph.addkota('Jakarta')
+graph.addkota('Lampung')
+graph.addkota('Jambi')
+graph.addkota('Riau')
+graph.addkota('Kepulauan Riau')
+graph.addkota('Medan')
+graph.addkota('Kalimantan Barat')
+graph.addkota('Kalimantan Timur')
+graph.addkota('Sulawesi Utara')
+graph.addkota('Maluku')
+graph.addkota('Makassar')
+graph.addkota('Papua Barat')
